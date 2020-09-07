@@ -35,4 +35,4 @@ class TestDataExactlyTwoDifferentMinimums(object):
     @staticmethod
     def get_expected_result():
         # complete this function
-
+        return 2
