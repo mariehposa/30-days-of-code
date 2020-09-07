@@ -30,6 +30,7 @@ class TestDataExactlyTwoDifferentMinimums(object):
     @staticmethod
     def get_array():
         # complete this function
+        return [5, 3, 2, 7, 2]
 
     @staticmethod
     def get_expected_result():
