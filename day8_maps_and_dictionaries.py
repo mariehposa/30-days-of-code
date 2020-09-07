@@ -5,3 +5,12 @@ phoneBook = {}
 
 for _ in range(0, n):
     name, number = input().split()
+    phoneBook[name] = number
+# print(phoneBook)
+
+while True:
+    name = input()
+    if name in phoneBook:
+        print('{}={}'.format(name, phoneBook[name]))
+    else:
+        print('Not found')
