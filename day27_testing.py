@@ -17,6 +17,7 @@ class TestDataUniqueValues(object):
     @staticmethod
     def get_array():
         # complete this function
+        return [5, 3, 7, -2, 1]
 
     @staticmethod
     def get_expected_result():
