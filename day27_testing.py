@@ -11,6 +11,7 @@ class TestDataEmptyArray(object):
     @staticmethod
     def get_array():
         # complete this function
+        return []
 
 class TestDataUniqueValues(object):
 
