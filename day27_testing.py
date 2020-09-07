@@ -22,6 +22,7 @@ class TestDataUniqueValues(object):
     @staticmethod
     def get_expected_result():
         # complete this function
+        return 3
 
 class TestDataExactlyTwoDifferentMinimums(object):
 
