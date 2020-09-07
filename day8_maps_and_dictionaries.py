@@ -9,8 +9,11 @@ for _ in range(0, n):
 # print(phoneBook)
 
 while True:
-    name = input()
-    if name in phoneBook:
-        print('{}={}'.format(name, phoneBook[name]))
-    else:
-        print('Not found')
+    try:
+        name = input()
+        if name in phoneBook:
+            print('{}={}'.format(name, phoneBook[name]))
+        else:
+            print('Not found')
+    except:
+        break
