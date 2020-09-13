@@ -7,3 +7,5 @@ for _ in range(F):
 
     # for i in range(2, n//2):
         if (n > 1):
+            if(n == 2):
+                print('Prime')
