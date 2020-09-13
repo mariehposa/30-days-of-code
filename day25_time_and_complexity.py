@@ -9,3 +9,7 @@ for _ in range(F):
         if (n > 1):
             if(n == 2):
                 print('Prime')
+            elif (n % 2) == 0 or (n % 3) == 0:
+                print("Not prime")
+            else:
+                print("Prime")
